@@ -1,0 +1,355 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  .topBar {
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(110, 108, 108, 0.477);
+    background:plum;
+  }
+  
+  .topBar p {
+    text-align: center;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+  .a1{
+    text-decoration: none;
+    color:blueviolet;
+  }
+  .a1:hover{
+    
+    text-decoration:underline
+   
+  }
+  header {
+    width: 100vw;
+    height: 70px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-bottom: 1px solid rgba(110, 108, 108, 0.477);
+    justify-content: space-evenly;
+  }
+
+  .logo {
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .logo-text {
+    width: 100px;
+    height: 40px;
+    margin-right: 90px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: start;
+    flex-grow: 0.2;
+    margin-left: -100px;
+    /* background-color: aqua; */
+  }
+
+  nav a {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 16px;
+  }
+  
+  nav a:hover {
+    background-color: transparent;
+    border-radius: 5px;
+    background-color: #EFF7FE;
+  }
+
+  .butn {
+    flex-grow: 0.1;
+    width: 280px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: -70px;
+  }
+  
+  .butn button {
+    padding: 7px 15px;
+    border-radius: 5px;
+  }
+  
+  .login {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-weight: bold;
+  }
+  
+  .login:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: rgb(8, 8, 8);
+  }
+  
+  .signup {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    border-radius: 5px;
+  }
+  
+  .signup:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  .theme {
+    width: 80px;
+    height: 30px;
+    margin-left: 5px;
+    border: 1px solid grey;
+    background: transparent;
+    outline: none;
+    font-weight: bold;
+    padding: 7px 10px;
+    border-radius: 45px;
+  }
+   .theme span i{
+   margin-left: 70px;
+   margin-top: -90px;
+  } 
+
+  
+  .thirdbar {
+    width: 100vw;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(110, 108, 108, 0.477);
+    border-bottom: 1px solid rgba(110, 108, 108, 0.477);
+  
+    background-color: plum;
+  }
+  
+  .thirdbar p {
+    font-size: 17px;
+    align-items: center;
+    padding: 50px;
+  }
+  
+          /* Content */
+  .Content {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    padding: 0 30px;
+  }
+  
+  .side {
+    width: 200px;
+    /* padding-left: 10px; */
+    border: 2px solid white;
+  }
+  
+  .middle {
+    flex-grow: 2;
+    overflow-y: auto;
+  }
+  
+  .rightside {
+    flex-grow: 0.2;
+  }
+  
+  .leftside {
+    flex-grow: 0.3;
+    padding-left: 2%;
+    overflow-x: hidden;
+  }
+  
+  .para {
+    font-size: 15px;
+    text-align: justify;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 0 20px;
+    line-height: 1.9em;
+  }
+  
+  .heading {
+    margin: 20px 0;
+    padding: 0 20px;
+  }
+  
+  .btn {
+    width: 100px;
+    font-size: 15px;
+    display: flex;
+    margin: 20px 0;
+    margin-left: 8px;
+    justify-content: space-evenly;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    border: 1px solid rgb(65, 61, 61);
+    color: rgb(65, 61, 61);
+    background-color:rgb(246, 214, 219);
+  }
+  
+  .select {
+    width: 150px;
+    justify-content: center;
+  }
+  
+  .select .dropDown {
+    width: 150px;
+    background-color: transparent;
+    font-size: 15px;
+    border: none;
+    margin: 20px 0px;
+    color:blue;
+  }
+  
+  .dropDown:focus {
+    outline: none;
+    padding: 10px;
+  }
+  
+  .head {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 200px;
+    font-style: italic;
+    color: rgb(23, 67, 75);
+    background-color: rgb(155, 155, 243);
+  }
+  
+  .heading1 {
+    font-size: 20px;
+    margin: 15px;
+    background-color: rgba(71, 71, 219, 0.35);
+  }
+  .heading1:hover , .right_para:hover{
+   background-color: aqua;
+  }
+  .right_para {
+    font-size: 15px;
+    margin: 15px;
+    background-color: rgba(71, 71, 219, 0.35);
+  }
+  
+  /* media querry 986px */
+  @media only screen and (max-width: 986px) {
+    header {
+      width: 100%;
+    }
+  
+    .butn {
+      width: 150px;
+    }
+  
+    .butn button {
+      padding: 2px 5px;
+    }
+  }
+  
+  /* media querry 768px */
+  @media only screen and (max-width: 768px) {
+    header {
+      width: 100%;
+    }
+  
+    .butn {
+      display: none;
+    }
+  
+    .butn button {
+      padding: 2px 5px;
+      flex-grow: 0;
+    }
+  
+    nav {
+      flex-grow: 0;
+      width: 550px;
+    }
+  
+    .rightside {
+      display: none;
+    }
+  
+    .Content {
+      flex-direction: row-reverse;
+    }
+  }
+  
+  /* media querry 620px */
+  @media only screen and (max-width: 620px) {
+    nav {
+      display: none;
+    }
+  
+    .butn {
+      /* width: 100%; */
+      display: flex;
+      height: 40px;
+      flex-grow: 0.1;
+      text-align: center;
+      padding: 2px;
+    }
+  
+    .logo-text {
+      width: 80px;
+      height: 40px;
+    }
+  
+    header {
+      width: 100%;
+      display: flex;
+      padding: 0%;
+    }
+  
+    .butn {
+      width: 100%;
+    }
+  
+    .leftside {
+      display: none;
+    }
+  
+    .Content {
+      flex-direction: row-reverse;
+    }
+  }
+  
+  /* media querry 425px */
+  @media only screen and (max-width: 425px) {
+    header {
+      width: 100%;
+    }
+  
+    .butn button {
+      display: flex;
+      padding: 5px;
+    }
+  
+    nav {
+      display: none;
+    }
+  }
+  
